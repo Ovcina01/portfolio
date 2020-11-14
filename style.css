@@ -507,7 +507,7 @@ main{
         margin-top: 13rem;
     }
 }
-@media screen and (min-device-width: 1200px) and (max-device-width: 1990px){
+@media screen and (min-device-width: 1200px) and (max-device-width: 1500px){
     .main-content{
         margin-top: 13rem;
     }
