@@ -491,7 +491,7 @@ main{
         width: 100%;
     }
 }
-@media screen and (min-device-width: 700px) and (max-device-width: 900px){
+@media screen and (min-device-width: 700px) and (max-device-width: 1200px){
     .custom-logo{
         padding: 30px 0;
         cursor: pointer;
@@ -506,9 +506,8 @@ main{
     .main-content{
         margin-top: 13rem;
     }
-}    
-
-@media screen and (min-device-width: 900px) and (max-device-width: 1200px){
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1990px){
     .main-content{
         margin-top: 13rem;
     }
