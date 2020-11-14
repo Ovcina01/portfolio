@@ -395,3 +395,121 @@ main{
     background-color: #FE7235;
     color: #232323;
 }
+
+/* Media */
+@media screen and (min-width: 350px) and (max-device-width: 700px){
+    header{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    nav ul{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .custom-logo, #profile-title{
+       padding: 0 1rem;
+       margin: 0;
+       font-size: 2rem;
+    }
+    nav ul li a i{
+        display: none;
+    }
+    nav  ul li a span{
+        font-size: 1rem;
+    }
+    main{
+        margin-left: 11%;
+    }
+
+    .aboutme{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: inline-block;
+    }
+    .aboutme h2{
+        font-size: 1rem;
+    }
+    .aboutme h3{
+        font-size: 0.8rem;
+    }
+    #profile span{
+        font-size: 0.8rem;
+    }
+    #employment span{
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    #employment ul li{
+        font-size: 0.6rem;
+    }
+    #education span{
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+    #education ul li{
+        font-size: 0.6rem;
+    }
+    #internship span{
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+    #internship ul li{
+        font-size: 0.6rem;
+    }
+    .description{
+        font-size: 0.6rem;
+    }
+    .statistics{
+        position: absolute;
+        display: inline-block;
+    }
+    .statistics, #details, #skills{
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    #details a{
+        font-size: 0.7rem;
+    }
+
+    #contact-form{
+        margin: 0;
+        margin-top: 5%;
+        width: 100%;
+    }
+    #contact-form input{
+        font-size: 1rem;
+    }
+    .ap-login{
+        margin: 0;
+        margin-top: 5%;
+        width: 100%;
+    }
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 900px){
+    .custom-logo{
+        padding: 30px 0;
+        cursor: pointer;
+    }
+    
+    #profile-title{
+        font-weight: 800;
+        font-size: 1.5rem;
+        padding: 0 10px;
+        line-height: 50px;
+    }
+    .main-content{
+        margin-top: 13rem;
+    }
+}    
+
+@media screen and (min-device-width: 900px) and (max-device-width: 1200px){
+    .main-content{
+        margin-top: 13rem;
+    }
+}
